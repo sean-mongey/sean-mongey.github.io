@@ -100,11 +100,6 @@ video {
 	max-width: 600px;
 	border-radius: 12px;
 }
-.intro-vid
-{
-     
-    
-}
 .bottom-img
 {
     width: 100% !important;
@@ -194,10 +189,31 @@ video {
     border-radius: 20px;
     background-image: linear-gradient(to left, #38387b,#212e32);
 }
+.eye-button
+{
+    margin-top: 30px !important
+}
 
 #footer
 {
     background-image: linear-gradient(to right, #38387b,#212e32);
     color: rgb(219, 219, 219);
     height: 100px;
+}
+.ouroboros
+{
+    display: flex;
+    align-items: center;
+    box-shadow: 2px;
+    padding: 8px 25px;
+    border-bottom: #fff;
+    box-shadow: #fff;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #38387b,#212e32);
+    color: white;
+    margin-top: 20px;
+}
+.project-footer-wrap
+{
+   
 }
