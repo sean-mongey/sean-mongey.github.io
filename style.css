@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+body 
+{
+    font-family: sans-serif;
+}
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar 
+{
+    background-image: linear-gradient(to right, #38387b,#212e32);
+    padding: 0 !important;
+}
+.navbar-brand
+{
+    padding-left: 50px;
+    font: 300px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(219, 219, 219);
+}
+.navbar-nav li{
+padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: rgb(219, 219, 219) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.bi-three-dots-verti
+{
+    color: #fff;
+    font-size: 30px;
+}
+.nav-bar-toggler
+{
+    outline: none !important;
+}
+
+/*----------About Me-----------*/
+
+#about-me
+{
+    background-image: linear-gradient(to right, #38387b,#212e32);
+    color: rgb(219, 219, 219);
+    padding-top: 5%;
+}
+.bio-title
+{
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 0px; 
+}
+.bio
+{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.bio-pic
+{
+    border-radius: 70%;
+    padding: 100px 100px;.
+    height: 600px;
+}
+.intro-vid
+{
+    font:
+    width: 200px;
+    float: right;
+}
+#about-me a
+{
+    color: #fff;
+    text-decoration: none;
+}
+iframe {
+	width: 400px;
+	height: 220px;
+}
+
+video {
+	margin: 24px 0px;
+	width: 100%;
+	max-width: 600px;
+	border-radius: 12px;
+}
+.intro-vid
+{
+    align-items: center!important:
+    width: auto;
+    height: 100px;
+}
+.bottom-img
+{
+    width: 100% !important;
+    height: 350px;
+}
+
+/*-----------Contact Section--------------*/
+.contact-title
+{
+    transform: translateY(100px);
+
+}
+.contact-img img
+{
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------Projects Section----------*/
+
+#project-section
+{
+    background-image: linear-gradient(to right, #38387b,#212e32);
+    color: rgb(219, 219, 219);
+    height: 100%;
+}
+.projects
+{
+    padding: 0px;
+}
+.project-img 
+{
+    height: 300px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.project-img a :hover
+{
+    transform: translateY(-10px);
+}
+.projects h4
+{
+    padding: 5px;
+    margin-top: 20px;
+}
+.title
+{
+
+  text-align: left;
+    font-size: 100px;
+    padding: 20px;
+   
+}
+#project-section .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-bottom: #fff;
+    box-shadow: #fff;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #38387b,#212e32);
+}
