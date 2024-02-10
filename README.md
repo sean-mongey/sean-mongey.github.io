@@ -1,4 +1,4 @@
-This is my portfolio. I have used a number of different approaches to achieving its style to showcases my growing WebDev skills. At this stage it is set quite informal, partially because I'm an informal guy, and part because I still feel like I need to put a few miles in before I get serious with the job hunt.
+<a href= "https://sean-mongey.github.io/">This is my portfolio</a>. I have used a number of different approaches to achieving its style to showcases my growing WebDev skills. At this stage it is set quite informal, partially because I'm an informal guy, and part because I still feel like I need to put a few miles in before I get serious with the job hunt.
 Soak in the content, then throw money at me.
 I’ve got loads of tweaks lined up for the profile. I would like to add more animation in the site, with the icons and the like. I tried to make it mobile friendly, but was only partially happy with the results. I would also love to imbed the eyes JavaScript so my profile pic can stare back at whomever visits my profile.
 MIT License
