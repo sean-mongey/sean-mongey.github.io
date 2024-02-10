@@ -5,6 +5,8 @@
 }
 body 
 {
+    background-image: linear-gradient(to right, #38387b,#212e32);
+    color: rgb(219, 219, 219);
     font-family: sans-serif;
 }
 #nav-bar 
@@ -50,8 +52,7 @@ padding: 0 10px;
 
 #about-me
 {
-    background-image: linear-gradient(to right, #38387b,#212e32);
-    color: rgb(219, 219, 219);
+
     padding-top: 5%;
 }
 .bio-title
@@ -59,17 +60,22 @@ padding: 0 10px;
     font-size: 100px;
     font-weight: 600;
     margin-top: 0px; 
+    color: white;
 }
 .bio
 {
     font-size: 25px;
     font-weight: 300;
     margin-top: 30px;
+    color: white;
+}
+.bio-pic-wrap
+{
+    padding: 100px 0 100px 100px;
 }
 .bio-pic
 {
     border-radius: 70%;
-    padding: 100px 100px;.
     height: 600px;
 }
 .intro-vid
@@ -96,9 +102,8 @@ video {
 }
 .intro-vid
 {
-    align-items: center!important:
-    width: auto;
-    height: 100px;
+     
+    
 }
 .bottom-img
 {
@@ -107,6 +112,11 @@ video {
 }
 
 /*-----------Contact Section--------------*/
+#contact
+{
+    background-color: #fff;
+    padding-bottom: 40px;
+}
 .contact-title
 {
     transform: translateY(100px);
@@ -117,10 +127,22 @@ video {
     height: 40px;
 
 }
+.contact-name
+{
+    margin-top: 16px;
+}
 
-
-
-
+.social-media
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-icon
+{
+    width: 30px;
+    margin-bottom: ;
+}
 
 
 
@@ -171,4 +193,11 @@ video {
     box-shadow: #fff;
     border-radius: 20px;
     background-image: linear-gradient(to left, #38387b,#212e32);
+}
+
+#footer
+{
+    background-image: linear-gradient(to right, #38387b,#212e32);
+    color: rgb(219, 219, 219);
+    height: 100px;
 }
