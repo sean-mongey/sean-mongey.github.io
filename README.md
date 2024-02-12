@@ -6,7 +6,7 @@ My Repositories
 
 <a href= "https://sean-mongey.github.io/RealTimeBusTracker/">Real Time Bus Tracker</a>
 
-<a href= "https://sean-mongey.github.io/">My Portfolio</a>. 
+<a href= "https://sean-mongey.github.io/">My Portfolio</a>
 
 I have used a number of different approaches to achieving its style to showcases my growing WebDev skills. At this stage it is set quite informal, partially because I'm an informal guy, and part because I still feel like I need to put a few miles in before I get serious with the job hunt.
 Soak in the content, then throw money at me.
