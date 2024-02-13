@@ -4,7 +4,7 @@ My Repositories
 
 <a href= "https://sean-mongey.github.io/eyes/">Eyes</a>
 
-<a href= "https://sean-mongey.github.io/RealTimeBusTracker/">Real Time Bus Tracker</a>
+<a href= "https://sean-mongey.github.io/RealTimeBusTracker/">Real Time Bus Tracker</a> An access token is required for the map to load. Fork the code and add your access code to sample the program. See RealTimeBusTracker/README.md for more details.
 
 <a href= "https://sean-mongey.github.io/">My Portfolio</a>
 
