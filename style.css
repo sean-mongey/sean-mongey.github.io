@@ -79,8 +79,8 @@ body {
 }
 
 .intro-vid {
-    font:
-        width: 200px;
+   
+    width: 200px;
     float: right;
 }
 
@@ -134,7 +134,6 @@ video {
 
 .contact-icon {
     width: 30px;
-    margin-bottom: ;
 }
 
 
