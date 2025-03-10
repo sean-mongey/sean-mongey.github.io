@@ -65,8 +65,20 @@
             class="btn-primary">Check out the code</button></a></div>
 
 
-      <a href="https://sean-mongey.github.io/eyes/" class="eyes-img"><img src="images/eyes3.png"
-          class="project-img"></a>
+      <a href="https://sean-mongey.github.io/eyes/" class="eyes-img">
+         <div class="face">
+          <div class="eyes">
+              <div class="eye">
+                  <div class="ball"></div>
+              </div>
+              <div class="eye">
+                  <div class="ball"></div>
+              </div>
+          </div>
+      </div>
+    </a>
+      <!-- class="eyes-img"><img src="images/eyes3.png"
+          class="project-img"></a> -->
       <h4 class="eyes-heading">Following Eyes</h4>
       <p class="project-description eyes-description">This program has a set of eyes that follow your mouse's every
         move.</p>
@@ -85,7 +97,9 @@
     </div>
 
   </section>
+  <script src="./eyes.js"></script>;
   <script>
+    
     document.getElementById('bus-image').addEventListener('click', function() {
        alert("An access token is required. See click the code button below and follow the steps on the README file to sample this program");
    });
