@@ -1,7 +1,7 @@
-* {
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
 body {
     background-image: linear-gradient(to right, #38387b, #212e32);
@@ -33,6 +33,7 @@ body {
     text-align: left;
 }
 
+
 .bi-three-dots-verti {
     color: #fff;
     font-size: 30px;
@@ -45,6 +46,7 @@ body {
 /*----------About Me-----------*/
 
 #about-me {
+
     padding-top: 5%;
 }
 
@@ -72,6 +74,7 @@ body {
 }
 
 .intro-vid {
+
     width: 200px;
     float: right;
 }
@@ -107,10 +110,12 @@ video {
 
 .contact-title {
     transform: translateY(100px);
+
 }
 
 .contact-img img {
     height: 40px;
+
 }
 
 .contact-name {
@@ -127,6 +132,12 @@ video {
     width: 30px;
 }
 
+
+
+
+
+
+
 /*---------Projects Section----------*/
 
 #project-section {
@@ -135,6 +146,7 @@ video {
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     color: rgb(219, 219, 219);
+
 }
 
 .project-container {
@@ -145,6 +157,7 @@ video {
     padding: 20px;
 }
 
+
 .project-img {
     height: 200px;
     margin-top: 20px;
@@ -152,6 +165,11 @@ video {
     justify-self: center;
     margin-bottom: 20px;
 }
+
+
+
+
+
 
 .projects h4 {
     padding: 5px;
@@ -165,6 +183,7 @@ video {
     font-size: 100px;
     padding: 20px;
 }
+
 
 .pac-img {
     grid-column: 2 / 4;
@@ -284,24 +303,32 @@ video {
     border-radius: 50%;
 }
 
-/* Mobile adjustments grouped into one media query */@media (max-width: 768px) {
-    /* Navbar adjustments */
-    .navbar-brand {
-        padding-left: 20px;
-        font-size: 1.2rem;
+/* @media (max-width: 768px) {
+    .navbar-collapse {
+        display: block !important;
     }
-    .navbar-nav li a {
-        font-size: 0.9rem;
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
-    
-    /* Title adjustments */
+
+    #nav-bar {
+        position: relative; 
+    }
+
+    .navbar-toggler {
+        display: none; 
+    }
+
     .title {
         grid-column: 1 / -1;
         font-size: 40px;
         padding: 20px;
     }
     
-    /* Project container adjustments */
     .project-container {
         display: flex;
         flex-direction: column;
@@ -314,13 +341,11 @@ video {
         height: auto;
     }
     
-    /* Ensure eyes project displays correctly */
     .eyes-img {
         display: block;
         width: 100%;
     }
     
-    /* Following Eyes adjustments */
     .face {
         width: 70%;       
         margin: 20px auto; 
@@ -331,4 +356,212 @@ video {
     .ball {
         width: 40%;       
     }
+} */
+ /* Mobile adjustments grouped into one media query */
+@media (max-width: 768px) {
+    
+    /* Navbar adjustments */
+    .navbar-collapse {
+        display: block !important;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #nav-bar {
+        position: relative; 
+    }
+    .navbar-toggler {
+        display: none; 
+    }
+    
+    /* Projects & Titles adjustments */
+    .title {
+        grid-column: 1 / -1;
+        font-size: 40px;
+        padding: 20px;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .project-img {
+        width: 80%;
+        height: auto;
+    }
+    .eyes-img {
+        display: block;
+        width: 100%;
+    }
+    .face {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .eye {
+        margin: 5%;
+    }
+    .ball {
+        width: 40%;
+    }
+    
+    /* About Me adjustments */
+    /* #about-me .row {
+        
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about-me .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+   /* Ensure the About Me section behaves like a single column */
+   /* #about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+#about-me .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+}
+
+
+#about-me .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+#about-me {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    .bio-title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .bio {
+        font-size: 18px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .bio-pic-wrap {
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .bio-pic {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    #contact .container > .d-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #contact .flex-grow-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #contact .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Ensure the row does not inherit unwanted layout */
+#about-me .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+/* Force each column to take full width */
+#about-me .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Adjust Background for Consistency */
+#about-me {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Ensures the background does not shift */
+}
+
+/* Adjust Bio Text */
+.bio-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.bio {
+    font-size: 18px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+/* Ensure Bio Picture is Centered */
+.bio-pic-wrap {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.bio-pic {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Fix Contact Section Alignment */
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact .d-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#contact .flex-grow-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 }
