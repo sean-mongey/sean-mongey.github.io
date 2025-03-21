@@ -84,7 +84,7 @@ body {
     text-decoration: none;
 }
 
-iframe {
+/* iframe {
     width: 400px;
     height: 220px;
 }
@@ -94,8 +94,27 @@ video {
     width: 100%;
     max-width: 600px;
     border-radius: 12px;
-}
-
+} */
+/* Reduce the logo size */
+.MITCert .cert-img {
+    width: 150px; /* Adjust this value as needed */
+    height: auto;
+  }
+  
+  /* Style the link so it doesn't have the default underline, and inherit text color */
+  .MITCert .cert-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Caption styling to make it clear it's a clickable link */
+  .MITCert .cert-caption {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-style: italic;
+    color: #007bff;  /* Use a blue shade to indicate interactivity */
+  }
+  
 .bottom-img {
     width: 100% !important;
     height: 350px;
