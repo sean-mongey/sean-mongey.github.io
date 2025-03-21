@@ -198,13 +198,15 @@ video {
 .bank-img {
     grid-column: 8 / 10;
     grid-row: 4 / 6;
-    background: #17a2b8; 
-    padding: 6px; 
-    border-radius: 15px;
-    border: 2px solid #17a2b8;
-    display: inline-block;
 }
-
+.bank-img-wrapper {
+    display: inline-block; 
+    background: #17a2b8;
+    border: 30px ;
+    border-radius: 15px;
+    padding: 10px; 
+  }
+  
 .pac-heading {
     grid-column: 2 / 4;
     grid-row: 6 / 7;
@@ -307,60 +309,6 @@ video {
     border-radius: 50%;
 }
 
-/* @media (max-width: 768px) {
-    .navbar-collapse {
-        display: block !important;
-    }
-
-    .navbar-nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    #nav-bar {
-        position: relative; 
-    }
-
-    .navbar-toggler {
-        display: none; 
-    }
-
-    .title {
-        grid-column: 1 / -1;
-        font-size: 40px;
-        padding: 20px;
-    }
-    
-    .project-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-    .project-img {
-        width: 80%;
-        height: auto;
-    }
-    
-    .eyes-img {
-        display: block;
-        width: 100%;
-    }
-    
-    .face {
-        width: 70%;       
-        margin: 20px auto; 
-    }
-    .eye {
-        margin: 5%;       
-    }
-    .ball {
-        width: 40%;       
-    }
-} */
  /* Mobile adjustments grouped into one media query */
 @media (max-width: 768px) {
     
@@ -413,88 +361,7 @@ video {
         width: 40%;
     }
     
-    /* About Me adjustments */
-    /* #about-me .row {
-        
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    #about-me .col-md-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    } */
-   /* Ensure the About Me section behaves like a single column */
-   /* #about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-
-
-#about-me .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin: 0%;
-}
-
-
-#about-me .col-md-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-
-#about-me {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-    .bio-title {
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .bio {
-        font-size: 18px;
-        padding: 0 20px;
-        margin-bottom: 20px;
-    }
-    .bio-pic-wrap {
-        padding: 20px 0;
-        display: flex;
-        justify-content: center;
-    }
-    .bio-pic {
-        width: 80%;
-        max-width: 300px;
-        height: auto;
-    }
-
-    #contact .container > .d-flex {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-    #contact .flex-grow-1 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #contact .social-media {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-} */
+    
 #about-me {
     display: flex;
     flex-direction: column;
