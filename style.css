@@ -195,7 +195,7 @@ video {
     grid-row: 4 / 6;
 }
 
-.bus-img {
+.bank-img {
     grid-column: 8 / 10;
     grid-row: 4 / 6;
     cursor: pointer;
@@ -211,7 +211,7 @@ video {
     grid-row: 6 / 7;
 }
 
-.bus-heading {
+.bank-heading {
     grid-column: 8 / 10;
     grid-row: 6 / 7;
 }
@@ -226,7 +226,7 @@ video {
     grid-row: 7 / 9;
 }
 
-.bus-description {
+.bank-description {
     grid-column: 8 / 10;
     grid-row: 7 / 9;
 }
@@ -250,7 +250,7 @@ video {
     grid-row: 10 / 11;
 }
 
-.bus-btn {
+.bank-btn {
     grid-column: 8 / 10;
     grid-row: 10 / 11;
 }
