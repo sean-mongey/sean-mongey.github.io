@@ -44,29 +44,13 @@
            C40,184 80,182 110,178
            C140,174 160,166 172,155
            C188,140 198,120 195,105
-           C192,92 182,85 170,88"
+           C192,92 182,85 170,88
+           C158,92 150,102 152,114"
         fill="none"
         stroke="url(#wave-stroke)"
         stroke-width="3"
         stroke-linecap="round"
         stroke-linejoin="round"/>
-
-  <!-- Wave crest curling over (the lip) -->
-  <path d="M170,88
-           C158,92 150,102 152,114"
-        fill="none"
-        stroke="url(#wave-stroke)"
-        stroke-width="2.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
-
-  <!-- Spray accent at wave tip -->
-  <path d="M170,88 C178,84 185,84 190,87"
-        fill="none"
-        stroke="#7dd3fc"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        opacity="0.45"/>
 
   <!-- BASELINE - wave base flows into mountain base -->
   <path d="M152,114
