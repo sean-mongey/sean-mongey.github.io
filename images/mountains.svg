@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="mtn-fill" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#a78bfa" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="mtn-outline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#818cf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="wave-stroke" x1="0" y1="0" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#7dd3fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="snow-fill" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#e0e7ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c7d2fe" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="shadow-left" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#312e81" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#4338ca" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shadow-right" x1="1" y1="0" x2="0" y2="0.5">
+      <stop offset="0%" stop-color="#312e81" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4338ca" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- WAVE - cresting wave with lip curling over -->
+
+  <!-- Tail from far left, rising into wave crest -->
+  <path d="M5,184
+           C40,184 80,182 110,178
+           C140,174 160,166 172,155
+           C188,140 198,120 195,105
+           C192,92 182,85 170,88"
+        fill="none"
+        stroke="url(#wave-stroke)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Wave crest curling over (the lip) -->
+  <path d="M170,88
+           C158,92 150,102 152,114"
+        fill="none"
+        stroke="url(#wave-stroke)"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Spray accent at wave tip -->
+  <path d="M170,88 C178,84 185,84 190,87"
+        fill="none"
+        stroke="#7dd3fc"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        opacity="0.45"/>
+
+  <!-- BASELINE - wave base flows into mountain base -->
+  <path d="M152,114
+           C156,130 170,148 200,162
+           C240,176 290,182 350,184
+           C380,185 410,184 430,182"
+        fill="none"
+        stroke="url(#wave-stroke)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- MOUNTAIN 1 (left, medium peak) -->
+  <path d="M430,182 L470,168 L510,72 L555,155 L560,152 L560,184 L430,184 Z"
+        fill="url(#mtn-fill)" opacity="0.85"/>
+
+  <path d="M430,182 L470,168 L510,72 L510,184 L430,184 Z"
+        fill="url(#shadow-left)" opacity="0.5"/>
+
+  <path d="M500,88 L510,72 L520,88 L512,85 Z"
+        fill="url(#snow-fill)"/>
+
+  <!-- MOUNTAIN 2 (tallest, right peak) -->
+  <path d="M540,160 L580,130 L640,38 L705,152 L730,138 L730,184 L540,184 Z"
+        fill="url(#mtn-fill)" opacity="0.9"/>
+
+  <path d="M540,160 L580,130 L640,38 L640,184 L540,184 Z"
+        fill="url(#shadow-left)" opacity="0.55"/>
+
+  <path d="M640,38 L705,152 L730,138 L730,184 L640,184 Z"
+        fill="url(#shadow-right)" opacity="0.3"/>
+
+  <path d="M625,60 L640,38 L658,62 L648,55 L640,58 L632,55 Z"
+        fill="url(#snow-fill)"/>
+
+  <path d="M618,72 L640,55 L662,72"
+        fill="none" stroke="#c7d2fe" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- SMALL PEAK 3 (far right, trailing off) -->
+  <path d="M715,145 L745,118 L780,148 L810,170 L850,180 L895,184 L715,184 Z"
+        fill="url(#mtn-fill)" opacity="0.5"/>
+
+  <path d="M715,145 L745,118 L745,184 L715,184 Z"
+        fill="url(#shadow-left)" opacity="0.3"/>
+
+  <!-- MOUNTAIN OUTLINES -->
+
+  <!-- Peak 1 outline -->
+  <path d="M430,182 L470,168 L510,72 L555,155"
+        fill="none"
+        stroke="url(#mtn-outline)"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Saddle between peaks -->
+  <path d="M555,155 L560,152 L540,160 L580,130"
+        fill="none"
+        stroke="url(#mtn-outline)"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Peak 2 outline -->
+  <path d="M580,130 L640,38 L705,152"
+        fill="none"
+        stroke="url(#mtn-outline)"
+        stroke-width="2.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Connection to small peak -->
+  <path d="M705,152 L730,138 L745,118"
+        fill="none"
+        stroke="url(#mtn-outline)"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Small peak 3 outline trailing off -->
+  <path d="M745,118
+           L780,148
+           L810,170
+           C830,178 860,182 895,184"
+        fill="none"
+        stroke="url(#mtn-outline)"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.6"/>
+
+  <!-- Base line connecting wave to mountains -->
+  <path d="M430,182 L430,184"
+        fill="none" stroke="url(#mtn-outline)" stroke-width="1" opacity="0.3"/>
+
+</svg>

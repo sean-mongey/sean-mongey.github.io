@@ -3,95 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Mongey Portfolio</title>
+    <title>Sean Mongey | Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
- 
 </head>
 <body>
-    
-<section id="nav-bar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sean Mongey</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-three-dots-vertical"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
 
-      </ul>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Sean Mongey</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
-</section>
 
-<!------About section-------->
-<section id="about-me">
-    <div class="container"> 
-        <div class="row"> 
-         <div class="col-md-6">
-            <p class="bio-title">About Me</p>
-            <p class="bio">
-             
-             I'm an Aussie Nomad excited to build a career in Web Development. I’ve always been passionate about creating and problem-solving, which naturally led me to coding. My journey has taken me to all corners of the Earth, working across a diverse range of industries while embracing adventure—whether carving through alpine snow, gripping handlebars on mountain trails, or paddling out for some waves. Now, I’m focused on developing skills I can take anywhere, having studied JavaScript, React, HTTP, and CSS through MITxPro's Full Stack Development with MERN program. My goal is to craft meaningful digital experiences while maintaining the freedom to explore the world.
-            
-            </p>
+<!-- Hero / About Section -->
+<section id="hero">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-7 hero-text">
+                <p class="hero-greeting fade-in">G'day, I'm</p>
+                <h1 class="hero-name fade-in">Sean Mongey</h1>
+                <p class="hero-tagline fade-in">Full Stack Developer &amp; Adventurer</p>
+                <p class="hero-bio fade-in">
+                    I'm an Australian developer currently based in Flims, Switzerland. I've always been passionate about creating and problem-solving, which naturally led me to coding. My journey has taken me across the globe, working in diverse industries while embracing adventure&mdash;whether carving through alpine powder, gripping handlebars on mountain trails, or paddling out for waves.
+                </p>
+                <p class="hero-bio fade-in">
+                    Now settled in the Swiss Alps, I'm building with Next.js, React, TypeScript, and Node.js&mdash;backed by a MITxPro Full Stack Development certification. From e-commerce platforms with Stripe and Sanity CMS to full-stack applications with Firebase and real-time data, I'm ready to commit to meaningful projects and deliver quality digital experiences.
+                </p>
+                <div class="hero-actions fade-in">
+                    <a href="projects.html" class="btn btn-accent me-3">View Projects</a>
+                    <a href="#contact" class="btn btn-outline-light">Get in Touch</a>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center hero-image-col fade-in">
+                <div class="hero-image-wrapper">
+                    <img src="images/me.jpeg" alt="Sean Mongey" class="hero-image">
+                </div>
+                <div class="cert-badge">
+                    <a href="images/MITCert.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <img src="images/MITxPro-logo1" alt="MITxPro Certificate" class="cert-img">
+                        <span class="cert-text">MITxPro Certified</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 bio-pic-wrap" >
-           <img src="images/me.jpeg" class= "bio-pic">
-          
     </div>
-</div>
-
-<div class="MITCert text-center">
-  <a href="images/MITCert.pdf" target="_blank" class="cert-link">
-    <img src="images/MITxPro-logo1" alt="MITxPro Certificate" class="cert-img">
-    <p class="cert-caption">Click to view certificate PDF</p>
-  </a>
-</div>
-
-
-<!-- <div class="pro-vid d-flex justify-content-center"> -->
-
-
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlfHE7EFuaQ?si=d_TiNa2yaZ0FBC4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div> -->
-    
 </section>
-<img src="images/alps.png" class="bottom-img">
 
-    
-<!----------Contact Section------------->
+<!-- Mountain Divider -->
+<div class="section-divider">
+    <img src="images/mountains.svg" alt="Mountain range silhouette" class="divider-img">
+</div>
+
+<!-- Contact Section -->
 <section id="contact">
-    <div class="container"> 
-        <div class="d-flex justify-content-evenly">
-        
-          <div class="flex-grow-1 d-flex
-          justify-content-center">
-            <a href="http://www.linkedin.com/in/sean-mongey" class="social-media"><img src="images/linkedin.svg" class="contact-icon"><p class="contact-name">Sean Mongey</p></a></div> 
-        
-                    <div class="flex-grow-1 d-flex justify-content-center">
-            <a href="https://github.com/sean-mongey?tab=repositories" class="social-media"><img src="images/github.svg" class="contact-icon"><p class="contact-name">sean-mongey.github.io</p></a>
+    <div class="container">
+        <h2 class="section-title text-center fade-in">Let's Connect</h2>
+        <p class="section-subtitle text-center fade-in">I'm always open to new opportunities and collaborations.</p>
+        <div class="row justify-content-center g-4 mt-4">
+            <div class="col-md-4 fade-in">
+                <a href="http://www.linkedin.com/in/sean-mongey" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <img src="images/linkedin.svg" alt="LinkedIn" class="contact-icon">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-detail">Sean Mongey</span>
+                </a>
+            </div>
+            <div class="col-md-4 fade-in">
+                <a href="https://github.com/sean-mongey?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <img src="images/github.svg" alt="GitHub" class="contact-icon">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-detail">sean-mongey</span>
+                </a>
+            </div>
+            <div class="col-md-4 fade-in">
+                <a href="mailto:sean.mongey.91@gmail.com" class="contact-card">
+                    <img src="images/envelope.svg" alt="Email" class="contact-icon">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-detail">sean.mongey.91@gmail.com</span>
+                </a>
+            </div>
         </div>
-        
-                    <div class="flex-grow-1 d-flex justify-content-center">
-            <a href="mailto:sean.mongey.91@gmail.com" class="social-media"><img src="images/envelope.svg" class="contact-icon"><p class="contact-name">sean.mongey.91@gmail.com</p></a>
-        </div>
-        </div>
-    </div>
-        
-
-        
     </div>
 </section>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>&copy; 2026 Sean Mongey. Built with passion and code.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="./fade-in.js"></script>
+</body>
+</html>

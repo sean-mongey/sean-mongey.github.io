@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#0f172a"/>
+  <!-- QR Code placeholder -->
+  <rect x="140" y="60" width="120" height="120" rx="8" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <!-- QR pattern squares -->
+  <rect x="152" y="72" width="24" height="24" rx="2" fill="#818cf8"/>
+  <rect x="224" y="72" width="24" height="24" rx="2" fill="#818cf8"/>
+  <rect x="152" y="144" width="24" height="24" rx="2" fill="#818cf8"/>
+  <rect x="184" y="100" width="12" height="12" fill="#a78bfa"/>
+  <rect x="204" y="100" width="12" height="12" fill="#a78bfa"/>
+  <rect x="184" y="120" width="12" height="12" fill="#a78bfa"/>
+  <rect x="204" y="120" width="12" height="12" fill="#a78bfa"/>
+  <rect x="224" y="120" width="12" height="12" fill="#a78bfa"/>
+  <rect x="184" y="140" width="12" height="12" fill="#a78bfa"/>
+  <rect x="224" y="140" width="12" height="12" fill="#a78bfa"/>
+  <!-- Input field -->
+  <rect x="100" y="210" width="200" height="32" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="115" y="231" font-family="sans-serif" font-size="12" fill="#94a3b8">Enter URL...</text>
+  <!-- Button -->
+  <rect x="150" y="254" width="100" height="28" rx="6" fill="#6366f1"/>
+  <text x="168" y="273" font-family="sans-serif" font-size="11" fill="white" font-weight="600">Generate</text>
+</svg>

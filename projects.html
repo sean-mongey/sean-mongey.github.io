@@ -1,132 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <title>Sean Mongey Portfolio</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Sean Mongey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
 
-
-
-
-
-  <section id="nav-bar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sean Mongey</a>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Sean Mongey</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi bi-three-dots-vertical"></i>
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
-  <!------------Project Section--------------->
-  <section id="project-section">
-    <div class="project-container text-center">
-      <h1 class="title text-center">My Projects</h1>
-
-      <a href="https://sean-mongey.github.io/SimplePacMan/" class="pac-img"><img src="images/PacMan1.png"
-          class="project-img"></a>
-      <h4 class="pac-heading">Pacmen</h4>
-      <p class="project-description pac-description">This is a simplified version of the classic pacman game.</p>
-      <div class="pac-btn"><a href="https://github.com/sean-mongey/SimplePacMan"><button type="button"
-            class="btn-primary">Check out the code</button></a></div>
-
-
-      <a href="https://sean-mongey.github.io/eyes/" class="eyes-img">
-         <div class="face">
-          <div class="eyes">
-              <div class="eye">
-                  <div class="ball"></div>
-              </div>
-              <div class="eye">
-                  <div class="ball"></div>
-              </div>
-          </div>
-      </div>
-    </a>
-    
-      <h4 class="eyes-heading">Following Eyes</h4>
-      <p class="project-description eyes-description">This program has a set of eyes that follow your mouse's every
-        move.</p>
-      <div class="eyes-btn"><a href="https://github.com/sean-mongey/eyes"><button type="button"
-            class="btn-primary">Check out the code</button></a></div>
-
-      <a href="https://seanmongeybadbank.web.app" class="bank-img">
-        <div class="bank-img-wrapper">
-        <img src="images/bank.png" 
-        class="project-img">
-      </div>
-    </a>
-    
-      <h4 class="bank-heading">Bad Bank</h4>
-      <p class="project-description bank-description">This is a 3 tiered mock Banking application, showcasing FullStack Development skills.</p>
-      <div class="bank-btn"><a href="https://github.com/sean-mongey/BadBankFullStack"><button type="button"
-            class="btn-primary">Check out the code</button></a></div>
-
-      <div class="ouroboros"><a href="https://github.com/sean-mongey/sean-mongey.github.io"><button type="button"
-            class="btn-primary">Check out the code for this Portfolio</button></a></div>
-
-    </div>
-
-  </section>
-  <img src="images/alps.png" class="bottom-img">
-  <section id="contact">
-    <div class="container"> 
-        <div class="d-flex justify-content-evenly">
-        
-          <div class="flex-grow-1 d-flex
-          justify-content-center">
-            <a href="http://www.linkedin.com/in/sean-mongey" class="social-media"><img src="images/linkedin.svg" class="contact-icon"><p class="contact-name">Sean Mongey</p></a></div> 
-        
-                    <div class="flex-grow-1 d-flex justify-content-center">
-            <a href="https://github.com/sean-mongey?tab=repositories" class="social-media"><img src="images/github.svg" class="contact-icon"><p class="contact-name">sean-mongey.github.io</p></a>
-        </div>
-        
-                    <div class="flex-grow-1 d-flex justify-content-center">
-            <a href="mailto:sean.mongey.91@gmail.com" class="social-media"><img src="images/envelope.svg" class="contact-icon"><p class="contact-name">sean.mongey.91@gmail.com</p></a>
-        </div>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
-        
+</nav>
 
-        
+<!-- Projects Hero -->
+<section id="projects-hero">
+    <div class="container text-center">
+        <h1 class="page-title fade-in">My Projects</h1>
+        <p class="page-subtitle fade-in">A selection of things I've built along the way.</p>
     </div>
 </section>
 
-  <script src="./eyes.js"></script>;
+<!-- Projects Grid -->
+<section id="projects">
+    <div class="container">
+        <!-- Featured Project: ClayGround Flims -->
+        <div class="row g-4 justify-content-center mb-5">
+            <div class="col-lg-8 col-md-10 fade-in">
+                <div class="project-card project-card--featured">
+                    <a href="https://claygroundflims.com" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image project-card-image--featured">
+                            <img src="images/clayground-logo.png" alt="ClayGround Flims Logo">
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">ClayGround Flims</h3>
+                        <p class="project-card-text">A production e-commerce and booking platform for a pottery studio in Flims, Switzerland. Handles workshop scheduling, an online ceramics shop with real-time inventory, Stripe checkout (including Twint), gift vouchers, a newsletter system, and full English/German localisation&mdash;backed by a custom Sanity CMS Studio and Firebase.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">Sanity CMS</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Stripe</span>
+                            <span class="tag">next-intl</span>
+                            <span class="tag">Nodemailer</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://claygroundflims.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-accent">Live Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="row g-4 justify-content-center">
+
+            <!-- Following Eyes -->
+            <div class="col-lg-4 col-md-6 fade-in">
+                <div class="project-card">
+                    <a href="https://sean-mongey.github.io/eyes/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image project-card-image--eyes">
+                            <div class="face">
+                                <div class="eyes">
+                                    <div class="eye"><div class="ball"></div></div>
+                                    <div class="eye"><div class="ball"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">Following Eyes</h3>
+                        <p class="project-card-text">An interactive animation where a pair of eyes track your mouse cursor in real time using DOM manipulation.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS Animation</span>
+                            <span class="tag">DOM</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://sean-mongey.github.io/eyes/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-accent">Live Demo</a>
+                            <a href="https://github.com/sean-mongey/eyes" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bad Bank -->
+            <div class="col-lg-4 col-md-6 fade-in">
+                <div class="project-card">
+                    <a href="https://seanmongeybadbank.web.app" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image project-card-image--bank">
+                            <img src="images/bank.png" alt="Bad Bank Application">
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">Bad Bank</h3>
+                        <p class="project-card-text">A full-stack banking application with user authentication, account management, and real-time data using Firebase.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://seanmongeybadbank.web.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-accent">Live Demo</a>
+                            <a href="https://github.com/sean-mongey/BadBankFullStack" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extra Web -->
+            <div class="col-lg-4 col-md-6 fade-in">
+                <div class="project-card">
+                    <a href="https://extraweb-eight.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="images/extraweb.png" alt="Extra Web">
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">Extra Web</h3>
+                        <p class="project-card-text">A multilingual product showcase site built for Wilk-Graphite, featuring internationalisation and smooth scroll animations.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">next-intl</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://extraweb-eight.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-accent">Live Demo</a>
+                            <a href="https://github.com/sean-mongey/extraweb" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QR Code Generator -->
+            <div class="col-lg-4 col-md-6 fade-in">
+                <div class="project-card">
+                    <a href="https://github.com/sean-mongey/qr-code-generator" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="images/qrcode.svg" alt="QR Code Generator">
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">QR Code Generator</h3>
+                        <p class="project-card-text">A utility app that generates QR codes from any URL with instant preview and PNG download functionality.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">React 19</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://github.com/sean-mongey/qr-code-generator" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real Time Bus Tracker -->
+            <div class="col-lg-4 col-md-6 fade-in">
+                <div class="project-card">
+                    <a href="https://github.com/sean-mongey/RealTimeBusTracker" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="images/bustracker.png" alt="Real Time Bus Tracker">
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">Real Time Bus Tracker</h3>
+                        <p class="project-card-text">An interactive map showing real-time bus stops between MIT and Harvard, built with the Mapbox GL API.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Mapbox GL</span>
+                            <span class="tag">API Integration</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://github.com/sean-mongey/RealTimeBusTracker" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Pac-Man -->
+            <div class="col-lg-4 col-md-6 fade-in">
+                <div class="project-card">
+                    <a href="https://sean-mongey.github.io/SimplePacMan/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="images/PacMan1.png" alt="PacMan Game">
+                        </div>
+                    </a>
+                    <div class="project-card-body">
+                        <h3 class="project-card-title">Simple Pac-Man</h3>
+                        <p class="project-card-text">A browser-based Pac-Man game with maze navigation, ghost AI, and score tracking built with vanilla JavaScript.</p>
+                        <div class="project-card-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML Canvas</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="project-card-actions">
+                            <a href="https://sean-mongey.github.io/SimplePacMan/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-accent">Live Demo</a>
+                            <a href="https://github.com/sean-mongey/SimplePacMan" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5 fade-in">
+            <a href="https://github.com/sean-mongey/sean-mongey.github.io" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg">
+                View this portfolio's source code
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Mountain Divider -->
+<div class="section-divider">
+    <img src="images/mountains.svg" alt="Mountain range silhouette" class="divider-img">
+</div>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title text-center fade-in">Let's Connect</h2>
+        <p class="section-subtitle text-center fade-in">I'm always open to new opportunities and collaborations.</p>
+        <div class="row justify-content-center g-4 mt-4">
+            <div class="col-md-4 fade-in">
+                <a href="http://www.linkedin.com/in/sean-mongey" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <img src="images/linkedin.svg" alt="LinkedIn" class="contact-icon">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-detail">Sean Mongey</span>
+                </a>
+            </div>
+            <div class="col-md-4 fade-in">
+                <a href="https://github.com/sean-mongey?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <img src="images/github.svg" alt="GitHub" class="contact-icon">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-detail">sean-mongey</span>
+                </a>
+            </div>
+            <div class="col-md-4 fade-in">
+                <a href="mailto:sean.mongey.91@gmail.com" class="contact-card">
+                    <img src="images/envelope.svg" alt="Email" class="contact-icon">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-detail">sean.mongey.91@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>&copy; 2026 Sean Mongey. Built with passion and code.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="./eyes.js"></script>
+<script src="./fade-in.js"></script>
 </body>
-
 </html>
