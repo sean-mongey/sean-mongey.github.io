@@ -39,11 +39,20 @@
 
   <!-- WAVE - cresting wave with lip curling over -->
 
-  <!-- Tail from far left, rising into wave crest -->
+  <!-- Tail from far left, rising to crossing point -->
   <path d="M5,184
            C40,184 80,182 110,178
            C140,174 160,166 172,155
-           C188,140 198,120 195,105
+           C174,153 175,152 176,151"
+        fill="none"
+        stroke="url(#wave-stroke)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Wave continues from after crossing, up to crest and curling back -->
+  <path d="M182,145
+           C191,134 198,118 195,105
            C192,92 182,85 170,88
            C158,92 150,102 152,114"
         fill="none"
